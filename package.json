@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-   "start": "node-red -p $PORT -u /data -h 0.0.0.0"
+   "start": "node-red --port $PORT --userDir /data"
   },
   "keywords": [],
   "author": "",
